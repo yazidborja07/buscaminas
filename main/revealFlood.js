@@ -1,4 +1,4 @@
-function revealFlood(startRow, startCol) {
+function revealFlood(startRow, startCol, board, rows, cols, boardCover) {
   const dirs = [
     [-1, -1],
     [-1, 0],
